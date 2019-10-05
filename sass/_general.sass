@@ -117,6 +117,7 @@ body
 		justify-content: space-between
 		align-items: center
 		position: absolute
+		flex-wrap: wrap
 	&_line
 		position: absolute
 		top: 122px
@@ -176,6 +177,59 @@ body
 		a
 			display: block
 			text-decoration: none
+.services-all
+	padding-top: 120px
+	height: 602px
+	&_line		
+		background-color: $main-color-second
+		width: 90px
+		height: 6px
+		margin-bottom: 40px
+	&_wrapper
+		display: flex
+		align-items: center	
+		flex-wrap: wrap
+		margin-top: 55px
+		&:last-child
+			margin-top: 0
+	&_text
+		font-size: 18px
+		text-transform: uppercase
+		font-weight: 700
+	&_plane		
+		width: 70px
+		height: 70px
+		margin: 0 auto
+		margin-bottom: 23px
+		display: flex
+		justify-content: center
+		align-items: center
+	&_item
+		background-color: #393F47
+		width: 276px
+		height: 180px
+		border: 1px solid $main-color-first
+		text-align: center
+		display: flex
+		flex-direction: column
+		justify-content: center
+		&:hover
+			background-color: $main-color-second
+		&:hover .services-all_plane
+			width: 70px
+			height: 70px
+			background-color: #ffffff
+			border-radius: 100%
+			margin: 0 auto
+			margin-bottom: 23px
+		&:hover .icon-plane:before
+			color: $main-color-first
+		
+				
+		
+		
+	
+		
 
 
 				
