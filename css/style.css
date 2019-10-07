@@ -368,6 +368,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
+  -webkit-transition: 1s all;
+  transition: 1s all;
 }
 
 .services-all_item:hover {
@@ -385,5 +388,116 @@ body {
 
 .services-all_item:hover .icon-plane:before {
   color: #2F343A;
+}
+
+.about {
+  height: 602px;
+  padding-top: 200px;
+  height: 100%;
+}
+
+.about_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.about_text {
+  width: 445px;
+  height: 320px;
+}
+
+.about_descr {
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: 23px;
+}
+
+.about_item-wraper {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 320px;
+}
+
+.about_item {
+  width: 200px;
+  height: 160px;
+  background-color: #ffffff;
+  border: 1px solid #C8A35F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url(../img/track_on_road.png);
+  font-size: 0;
+  cursor: pointer;
+  -webkit-transition: 2s all;
+  transition: 2s all;
+}
+
+.about_item:hover {
+  background: #ffffff;
+}
+
+.about_item:hover .about_item-text1 {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2F343A;
+  line-height: 40px;
+}
+
+.about_item:hover .about_item-text2 {
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.about_item:hover .about_item-text3 {
+  font-size: 12px;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.about_grey-block {
+  width: 410px;
+  height: 482px;
+  background-color: #393F47;
+  position: absolute;
+  z-index: -1000;
+  top: -80px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.map {
+  height: 450px;
+}
+
+.footer {
+  background-color: #C8A35F;
+  height: 161px;
 }
 /*# sourceMappingURL=style.css.map */
